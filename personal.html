@@ -24,6 +24,32 @@
         <link rel="stylesheet" href="css/owl.carousel.css">
         <link rel="stylesheet" href="css/magnific-popup.css">        
 
+        <style>
+        /* Grid image cropping: keep aspect ratio and crop to fill */
+        .work-img {
+            position: relative;
+            width: 100%;
+            padding-bottom: 75%; /* 4:3 aspect ratio box */
+            overflow: hidden;
+        }
+
+        .work-img img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 100%;
+            height: 100%;
+            transform: translate(-50%, -50%);
+            object-fit: cover;
+            object-position: center center;
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            .work-img { padding-bottom: 66.66%; } /* slightly taller on small screens */
+        }
+        </style>
+
         
     </head>
      <body class="appear-animate">
@@ -145,187 +171,70 @@
             <!-- End Navigation panel -->
             
             
-            <!-- Head Section -->
-            <section class="page-section bg-dark-alfa-30" data-background="images/TenTen.png">
-                <div class="relative container align-left">
-                    
-                    <div class="row">
-                        
-                        <div class="col-md-8">
-                            <h1 class="hs-line-11 no-transp font-alt mb-20 mb-xs-0">FlatTen: Modular Exhibit Display</h1>
-                            <div class="hs-line-4 font-alt">
-                                Designed to display African American History around Evanston, IL
-                            </div>
-                        </div>
-
-                    </div>
-                    
-                </div>
-            </section>
-            <!-- End Head Section -->
+            
             
             
             <!-- Section -->
-            <section class="page-section">
-                <div class="container relative">
-                    
-                    
-                    <!-- Features Grid -->
-                    <div class="row alt-features-grid mb-80 mb-xs-40">
-                        
-                        <!-- Text Item -->
-
-                            <div class="alt-features-item align-center">
-                                <div class="alt-features-descr align-center">
-                                    <h4 class="mt-0 font-alt">Overview</h4>
-                                    Shorefront Legacy Center was burdened by the heavy, difficult to set up, fragile display systems that they use to showcase black history around Chicago’s North Shore. They asked our team to design and create a lightweight, collapsible, and modular display system to display both 2-Dimensional pieces and 3-Dimensional objects.
-                                    So, the purpose of our team’s design, the FlatTen, is to provide a less difficult and cumbersome system for Shorefront Legacy Center, while also remaining aesthetically pleasing and impactful in its messaging, and we created a prototype to meet these requirements.
-                                </div>
-                            </div>
-                        
-                        <!-- End Text Item -->
-                        
-                    </div>
-                    <!-- End Features Grid -->
-                
-                    <!-- End Work Gallery -->
-                    
-                    
-                    <!-- Features Grid -->
-                    <div class="row multi-columns-row alt-features-grid mb-80 mb-xs-40">
-                        
-                        <!-- Features Item -->
-                        <div class="col-sm-6 col-md-4 col-lg-4">
-                            <div class="alt-features-item align-center">
-                                <img src="images/flatten4.jpg" alt="" />
-                                <h3 class="alt-features-title font-alt">1. User Research</h3>
-                                <div class="alt-features-descr align-left">
-                                    Our project began with user research. We met with our client to disucss their needs and see existing products. 
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Features Item -->
-                        
-                        <!-- Features Item -->
-                        <div class="col-sm-6 col-md-4 col-lg-4">
-                            <div class="alt-features-item align-center">
-                                <img src="images/flatten3.jpg" alt="" />
-                                <h3 class="alt-features-title font-alt">2. Manufacturing</h3>
-                                <div class="alt-features-descr align-left">
-                                    I led the manufacturing efforts within our team, creating Bills of Materials, CAD designs, and using shop tools to manufacture our prototype
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Features Item -->
-                        
-                        <!-- Features Item -->
-                        <div class="col-sm-6 col-md-4 col-lg-4">
-                            <div class="alt-features-item align-center">
-                                <img src="images/flatten2.png" alt="" />
-                                <h3 class="alt-features-title font-alt">3. Results</h3>
-                                <div class="alt-features-descr align-left">
-                                    We created a fully functioning prototype display for our client. The design features a fully machined aluminum frame, tension cables, and polycarbonate attachments.
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Features Item -->
-                        
-                    </div>
-                    
-                                        
-                    <!-- Work Gallery -->
-                    <div class="work-full-media mb-80 mb-xs-40">
-                        
-                        <ul class="clearlist work-full-slider owl-carousel">
-                            <li>
-                                <img src="images/TenTen.png" alt="" />
-                            </li>
-                            <li>
-                                <img src="images/flatten5.png" alt="" />
-                            </li>
-                            <li>
-                                <img src="images/flatten.png" alt="" />
-                            </li>
-                        </ul>
-                        
-                    </div>
-                    <!-- Divider -->
-                   <hr class="mb-70 mb-xs-30"/>
-                   <!-- End Divider -->
-                       
-                    
-                    <div class="section-text mb-60 mb-sm-40">
-                        <div class="row">
-                            
-                            <div class="col-md-4 mb-sm-50 mb-xs-30">
-                                 
-                                <!-- Project Detail -->
-                                <div class="work-detail">
-                                    <h5 class="font-alt mt-0 mb-20">Result Details</h5>
-                                    <div class="work-full-detail">
-                                        <p>
-                                            <strong>Client:</strong>
-                                            Shorefront Legacy Center
-                                        </p>
-                                        <p>
-                                            <strong>Date:</strong>
-                                            January - March 2025
-                                        </p>
-
-                                    
-                                    </div>
-                                </div>
-                                <!-- End Project Detail -->
-                                 
-                            </div>
-                            
-                            <div class="col-md-4 col-sm-6 mb-sm-50 mb-xs-30">
-                                Our design involves a collapsible system utilizing a frame built from telescoping poles. To hang media and display other objects, the frame will utilize tension cables and fasteners to hold things in place.
-
-Components: 
-
-7’ 3-component Aluminum Telescoping Poles,
-
-36” Rectangular Aluminum poles,
-
-⅛” Pulley Cable Rope, 
-and 
-
-Cable Display Clamps,
-
- We also put together design documentation, including formal design reviews, testing reviews, final reports, and a final poster found here: <a href="images/Design Summary Printout (1).pdf" class="work-prev">Link</a>
-                            </div>
-                            <div class="col-md-4 col-sm-6 mb-sm-50 mb-xs-30"><img src = "images/flatten2.png"></div>
-                            
-
-                            
-                        </div>
-                    </div>
-                    
-                </div>
-            </section>
+                       <div class="container relative text-center" style="padding: 20px 0;">
+                <h2 class="font-alt" style="margin: 0;">Personal Projects</h2>
+            </div>
             <!-- End Section -->
             
+            <!-- Works Grid -->
+            <ul class="works-grid work-grid-3 work-grid-gut clearfix font-alt hover-white" id="work-grid">
+                        
+                <!-- Work Item (Lightbox) -->
+                <li class="work-item mix photography">
+                    <a href="images/Screenshot 2026-02-07 172811.png" class="work-lightbox-link mfp-image">
+                        <div class="work-img">
+                            <img src="images/Screenshot 2026-02-07 172811.png" alt="Work" style="width: 400px; height: 300px;"/>
+                        </div>
+                        <div class="work-intro">
+                            <h3 class="work-title">Custom Trumpet Mouthpiece</h3>
+                            <div class="work-descr">
+                                
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <!-- End Work Item -->
+                        
+                <!-- Work Item (Lightbox) -->
+                <li class="work-item mix photography">
+                    <a href="images/Screenshot 2026-02-07 173024.png" class="work-lightbox-link mfp-image">
+                        <div class="work-img">
+                            <img src="images/Screenshot 2026-02-07 173024.png" alt="Work" style="width: 400px; height: 300px;"/>
+                        </div>
+                        <div class="work-intro">
+                            <h3 class="work-title">Custom Drumstick</h3>
+                            <div class="work-descr">
+                                
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <!-- End Work Item -->
+                
+               <!-- Work Item (Lightbox) -->
+               <li class="work-item mix photography">
+                <a href="images/Screenshot 2026-02-07 174657.png" class="work-lightbox-link mfp-image">
+                    <div class="work-img">
+                        <img src="images/Screenshot 2026-02-07 174657.png" alt="Work" style="width: 400px; height: 300px;"/>
+                    </div>
+                    <div class="work-intro">
+                        <h3 class="work-title">CAD Smiski</h3>
+                        <div class="work-descr">
+                            
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <!-- End Work Item -->
+             
             
-            <!-- Divider -->
-            <hr class="mt-0 mb-0 "/>
-            <!-- End Divider -->
-            
-            
-            
-            
-            <!-- Divider -->
-            <hr class="mt-0 mb-0 "/>
-            <!-- End Divider -->
-            
-            
-            <!-- Work Navigation -->
-            <div class="work-navigation clearfix">
-                <a href="portfolio-single-5.html" class="work-prev"><span><i class="fa fa-chevron-left"></i>&nbsp;Previous</span></a>
-                <a href="#" class="work-all"><span><i class="fa fa-times"></i>&nbsp;All works</span></a>
-                <a href="portfolio-single-2.html" class="work-next"><span>Next&nbsp;<i class="fa fa-chevron-right"></i></span></a>
-            </div>
-            <!-- End Work Navigation -->
+        </div>
+    </section>
+                    
             
             
             <!-- Divider -->
