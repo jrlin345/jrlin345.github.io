@@ -2688,6 +2688,40 @@ a.logo:hover{
     margin: 0 auto;      /* centers it */
     padding: 0 20px;     /* small side padding on mobile */
 }
+.gallery-item {
+    position: relative;
+}
+
+.gallery-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.65);
+    color: white;
+    padding: 8px 10px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.4;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover .gallery-caption {
+    opacity: 1;
+}
+
+.caption {
+    font-size: 12px;
+    color: #777;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    margin-top: 8px;
+    text-align: center;
+}
 
 /* Ensure images have consistent height */
 .work-full-slider li {
