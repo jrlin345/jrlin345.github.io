@@ -645,8 +645,8 @@ Primary use:    MultiPurpose Template
 		line-height: 34px;
     }
     .scroll-down-icon {
-        width: 22px;
-        margin-left: -11px;
+        width: 44px;
+        margin-left: -22px;
     }	
 	.scroll-down span{
 		display: none;

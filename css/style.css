@@ -4873,6 +4873,7 @@ table.shopping-cart-table tr td{
 }
 .owl-prev,
 .owl-next{
+    color: white;
 	opacity: 0;
 	display: block;
 	position: absolute;
@@ -4883,7 +4884,6 @@ table.shopping-cart-table tr td{
 	line-height: 105px;
 	font-size: 16px;
 	text-align: center;
-	color: #111;
     
     z-index: 6;
 	
@@ -4909,7 +4909,7 @@ table.shopping-cart-table tr td{
     top: 17px;
     left: 0;
     
-    background: #fff;
+    background: black;
     
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;

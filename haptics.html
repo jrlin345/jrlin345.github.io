@@ -146,7 +146,7 @@
             
             
             <!-- Head Section -->
-            <section class="page-section bg-white" >
+            <section class="page-section bg-white pb-60" >
                 <div class="relative container align-left">
                     
                     <div class="row align-items-center">
@@ -195,7 +195,7 @@
                     <!-- Image: occupies 1 column -->
                     <div class="col-md-4 text-center">
                         <img src="images/portfoliophotos/CAD-HAND.jpg" alt="Robotic Hand" style="width: 400px; height: 320px; border-radius: 8px;">
-                        <div class="caption font-alt">Hand model + Finger-sensor integration I made</div>
+                        <div class="caption font-alt">Hand model + Finger-sensor integration</div>
                     </div>
 
                 </div>
@@ -215,7 +215,7 @@
     </div>
 
     <!-- Step 1: Top -->
-    <div class="row mb-5" style="display: flex; align-items: center;">
+    <div class="row mb-20" style="display: flex; align-items: center;">
         <!-- Image -->
         <div class="col-md-4 text-center">
             <img src="images/portfoliophotos/Testbed-CAD.jpg" alt="Step 1" style="width: 100%; height: 100%; border-radius: 8px;">
@@ -227,21 +227,32 @@
             <p>
                 I relied heavily on <strong>Onshape, Solidworks, and 3D printing</strong> to design and manufacture the testbed. 
                 Me and my advisors decided on <strong>4 main parameters to test</strong>: horizontal and vertical distance from the transducers, distance from the transducers with a fixed probe, force applied to the membrane, and bend in the membrane. 
-                <strong>I designed the testbed </strong>with these parameters in mind, creating a <strong>modular design </strong>that could account for these different requirements.
+                <strong>I designed the testbed </strong>with these parameters in mind, creating a <strong>modular design </strong>that could account for these requirements.
             </p>
-        </div>
-    </div>
-
-    <!-- Arrow down to Step 2 -->
-    <div class="row justify-content-center mb-5">
-        <div class="col-12 text-center">
+            <div class="col-12 text-center black mt-100">
             <i class="fa fa-arrow-down" style="font-size: 2rem;"></i>
         </div>
+        </div>
+        
     </div>
 
     <!-- Step 2: Bottom Left -->
-    <div class="row mb-5" style="display: flex; align-items: center;">
+    <div class="row mb-10" style="display: flex; align-items: center;">
         <!-- Image -->
+    
+        <!-- Text -->
+        <div class="col-md-8 alt-features-descr">
+            <h4 class="font-alt">Step 2: Programming and Electronics</h4>
+            <p>
+               I programmed the testbed with <strong>user-experience in mind</strong>, using <strong>Python</strong> to control the testing procedure and collect data. 
+               I created a modular codebase that allowed for easy adjustment for different proceudres and data collection.
+               Additionally, I wired the testbed to interact with <strong>digital oscilloscopes, piezoelectric transducers, and F/T sensors</strong> to allow us to test all parameters needed.
+               Wiring the testbed involved <strong>software-hardware integration, circuit design testing, and signal filtering</strong> to ensure accurate data collection.
+            </p>
+            <div class="col-12 text-center black mt-100">
+            <i class="fa fa-arrow-down" style="font-size: 2rem;"></i>
+        </div>
+        </div>
         <div class="col-md-4 text-center">
             <div style="display: flex; flex-direction: column; justify-content: space-around; gap: 15px;">
                 <img src="images/portfoliophotos/waveform-readings.jpg" alt="Step 2" style="width: 100%; height: auto; border-radius: 8px;">
@@ -250,24 +261,8 @@
                 <div class="caption font-alt">Wiring and Sensors</div>
             </div>
         </div>
-        <!-- Text -->
-        <div class="col-md-8 alt-features-descr">
-            <h4 class="font-alt">Step 2: Programming and Electronics</h4>
-            <p>
-               I programmed the testbed with <strong>user-experience in mind</strong>, using <strong>Python</strong> to control the testing procedure and collect data. 
-               I created a modular codebase that allowed for easy adjustment for different proceudres and data collection.
-               Additionally, I wired the testbed to interact with <strong>digital oscilloscopes, piezoelectric transducers, and F/T sensors</strong> to allow us to test all parameters needed.
-               Wiring the testbed involved <strong>software-hardware integration, circuit design/testing, and signal filtering</strong> to ensure accurate data collection.
-            </p>
-        </div>
     </div>
 
-    <!-- Arrow down to Step 3 -->
-    <div class="row justify-content-center mb-5" style="margin-top: 60px; margin-bottom: 60px;">
-        <div class="col-12 text-center">
-            <i class="fa fa-arrow-down" style="font-size: 2rem;"></i>
-        </div>
-    </div>
 
     <!-- Step 3: Bottom Right -->
     <div class="row mb-5 flex-row-reverse" style="display: flex; align-items: center;">
@@ -286,7 +281,7 @@
             <p>
                 Over the course of 5 weeks, I used the testbed to collect data on the performance of the sensors, testing the 4 parameters we had identified. Ultimately we collected <strong>over 1000 data points</strong> with the testbed.
                 I then analyzed this data to gain insights into the performance of the sensors. Using <strong>MATLAB and Python</strong> we did <strong>basic signal processing, data visualization, and statistical analysis</strong> to understand the performance of the sensors.
-                Ultimately, our analysis found that the sensors needed much more calibration before it was ready for use in the hands, but the <strong>lab still uses the testbed to test new sensors</strong>. 
+                Ultimately, our analysis found that the sensors needed much more calibration before it was ready for use in the hands. However, <strong>lab still uses the testbed to test new sensors</strong>. 
             </p>
         </div>
     </div>
